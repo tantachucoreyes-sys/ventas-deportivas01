@@ -1,0 +1,68 @@
+/* Estilo del contenedor principal */
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+/* Estilo individual de cada tarjeta */
+.producto {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+ 
+.producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+ 
+.producto-info {
+    margin-top: 10px;
+}
+ 
+.producto-titulo {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #1e293b;
+}
+ 
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563eb;
+    margin: 8px 0;
+}
+ 
+.btn-comprar {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+.producto {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+ 
+.producto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+ 
+.btn-comprar:hover {
+    background-color: #1d4ed8;
+}
+ 
